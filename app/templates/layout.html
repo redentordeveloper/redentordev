@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ path }} | {{ name }}</title>
+
+    <!-- stylesheets -->
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css"
+        integrity="sha512-SLv8CNVAxhcbDQfwc9dS5OuZAAYqdTGJTBSUtKNQbCUO2gMno4Fp2Vn8Xsvj993RcofNfj2d5JA0jYBve4SEXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/styles.css">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css"
+            integrity="sha512-SLv8CNVAxhcbDQfwc9dS5OuZAAYqdTGJTBSUtKNQbCUO2gMno4Fp2Vn8Xsvj993RcofNfj2d5JA0jYBve4SEXA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </noscript>
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="/static/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png" />
+
+    <!-- umami tracker -->
+    <script defer src="https://tracker.redentor.dev/script.js"
+        data-website-id="e5b3a458-9ef5-4440-89ea-24a065599cd0"></script>
+</head>
+
+<body class="markdown-body">
+    <nav>
+        <a href="/">home</a>
+        <a href="/writings">writings</a>
+        <a href="/works">works</a>
+    </nav>
+    <main role="main">
+        {{ content|safe }}
+    </main>
+</body>
+
+</html>

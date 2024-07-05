@@ -1,0 +1,26 @@
+body {
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+@media (min-width: 680px){
+  main, nav {
+    max-width: 680px;
+  } 
+}
+
+img {
+  object-fit: cover;
+}
