@@ -1,4 +1,4 @@
-l# Blog
+# Blog
 
 This page is under contruction. Stay tuned!
 
