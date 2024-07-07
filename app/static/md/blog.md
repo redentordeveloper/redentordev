@@ -1,4 +1,4 @@
-# Writings
+l# Blog
 
 This page is under contruction. Stay tuned!
 
